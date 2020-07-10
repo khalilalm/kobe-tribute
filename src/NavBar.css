@@ -1,0 +1,33 @@
+nav{
+    background: purple;
+}
+nav ul li {
+    display: inline-block;
+    float: right;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 20px;
+    color: black;
+    
+}
+#k {
+    width: 50px;
+    height: 50px;
+    left: 50%;
+}
+a {
+    color: black;
+    text-decoration: none;
+    font: 1em bely;
+    text-shadow: 1px 1px black;
+}
+a:hover{
+    color: yellow;
+}
+.nav-title{
+    position: relative;
+    right: 10%;
+}
+.logo{
+    float: left;
+}

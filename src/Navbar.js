@@ -1,15 +1,26 @@
-import React, { Component } from 'react';
-class NavBar extends Component {
-    
-    render() { 
-        return ( <nav><ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Background</li>
-            <li>Career</li>
+import React, { Component } from "react";
+import "./NavBar.css";
+import logo from "./img/kobelogo.jpg";
+import {Link} from 'react-scroll';
 
-            </ul></nav> );
-    }
+class NavBar extends Component {
+  render() {
+    console.log(logo);
+    
+    return (
+      <div>
+        <nav>
+          <ul>
+            <img id="k" src={logo} className="logo"></img>
+           
+            <li><Link to="mamba-wrapper">Mamba Mentality</Link></li> 
+            <li><Link to="struggles-wrapper">Struggles</Link></li>
+            <li><Link to="early-life-wrapper">Early Life</Link></li>
+          </ul>
+        </nav>
+      </div>
+    );
+  }
 }
- 
+
 export default NavBar;

@@ -1,15 +1,24 @@
+
 nav{
-    background: purple;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+   
 }
-nav ul li {
-    display: inline-block;
-    float: right;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding: 20px;
-    color: black;
+ li {
+    text-decoration: none;
+    padding-right: 50px;
     
 }
+ul li {
+   
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row; 
+    
+}
+
 #k {
     width: 50px;
     height: 50px;
@@ -29,5 +38,9 @@ a:hover{
     right: 10%;
 }
 .logo{
-    float: left;
+   width: 50px;
+}
+.kb-nav-title{
+    color:gray;
+    font-family: 'Times New Roman', Times, cursive;
 }

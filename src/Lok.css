@@ -1,0 +1,55 @@
+.kobe-college-image{
+  width: 400px;
+  height: 200px;
+  margin-bottom: 10px;
+  border:1px solid black;
+  box-shadow: 10px 10px;
+}
+
+.lok-title{
+  color: white;
+}
+
+.lok-wrapper{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lok-container{
+  display:flex;
+  flex-direction: row;
+  padding:0px;
+  margin: 0px;
+}
+.lok-items{
+  width: auto;
+  border:1px solid black;
+  margin: 20px;
+  padding:5%;
+  background: rgb(67, 60, 52);
+  box-shadow:10px 10px;
+}
+.lok-text{
+  color: white;
+  text-align:justify;
+  direction: vertical;
+  font-family: 'Times New Roman', Times, serif;
+  width: 400px;
+  
+}
+.lok-item-subtitles{
+  color:maroon;
+  text-align: left;
+}
+.lok-text-list{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: justify;
+  align-items: flex-start;
+  width: 400px;
+}
+
+.lok-text-list-item{
+   font-family: 'Times New Roman', Times, serif;
+   
+}

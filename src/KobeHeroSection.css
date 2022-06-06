@@ -1,5 +1,51 @@
-h1 {
-    text-align: center ;
-    font: 2em bely;
-    text-shadow: 1px 1px black;
+.kobe-hero{
+    background-size: cover;
+    
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: .5;
+     }
+    100% {
+        opacity: 1;
+    }
+}
+.hero-title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', cursive;
+    color:white;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.hero-title-sub {
+    
+}
+  
+  
+
+
+.hero-vid {
+    width: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.inner {
+
+
 }

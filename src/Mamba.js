@@ -56,9 +56,9 @@ class Mamba extends Component {
           </div>
           <div className="box">
             <Card style={{ width: "30rem" }} className="bg-dark text-white">
-              <Card.Img src="https://scontent.fagc1-1.fna.fbcdn.net/v/t1.6435-9/83385429_102401171323085_1164183273929179136_n.jpg?stp=c0.7.526.275a_dst-jpg_p526x296&_nc_cat=103&ccb=1-7&_nc_sid=e3f864&_nc_ohc=mGHFvpsAAXgAX-Z40Q3&_nc_ht=scontent.fagc1-1.fna&oh=00_AT9co4ZdqX7SgejsB9r8C5llP8UGah4bzohSxvXwyV86Og&oe=62C2DBF4" alt="Card image" />
+              <Card.Img src="https://th.bing.com/th/id/R.8e07dc44e13388f0cd4417d5dd02e4f8?rik=u6pgj1v6%2fHg6cg&pid=ImgRaw&r=0" alt="Card image" />
               <Card.ImgOverlay>
-                <Card.Title>Thank You Kobe RIP!!!</Card.Title>
+                <Card.Title>Thank You Kobe</Card.Title>
                 
               </Card.ImgOverlay>
             </Card>

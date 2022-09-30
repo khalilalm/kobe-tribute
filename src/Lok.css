@@ -1,46 +1,45 @@
-.kobe-college-image{
+.kobe-college-image {
   width: 400px;
   height: 200px;
   margin-bottom: 10px;
-  border:1px solid black;
+  border: 1px solid black;
   box-shadow: 10px 10px;
 }
 
-.lok-title{
+.lok-title {
   color: white;
 }
 
-.lok-wrapper{
+.lok-wrapper {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.lok-container{
-  display:flex;
+.lok-container {
+  display: flex;
   flex-direction: row;
-  padding:0px;
+  padding: 0px;
   margin: 0px;
 }
-.lok-items{
+.lok-items {
   width: auto;
-  border:1px solid black;
+  border: 1px solid black;
   margin: 20px;
-  padding:5%;
+  padding: 5%;
   background: rgb(67, 60, 52);
-  box-shadow:10px 10px;
+  box-shadow: 10px 10px;
 }
-.lok-text{
-  color: white;
-  text-align:justify;
+.lok-text {
+  color:white;
+  text-align: justify;
   direction: vertical;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   width: 400px;
-  
 }
-.lok-item-subtitles{
-  color:maroon;
+.lok-item-subtitles {
+  color: maroon;
   text-align: left;
 }
-.lok-text-list{
+.lok-text-list {
   display: flex;
   flex-direction: column;
   color: white;
@@ -49,26 +48,37 @@
   width: 400px;
 }
 
-.lok-text-list-item{
-   font-family: 'Times New Roman', Times, serif;
-   
+.lok-text-list-item {
+  font-family: "Times New Roman", Times, serif;
 }
-@media (min-width: 1220px) and (max-width: 1760px){
-  .lok-container{
+@media (min-width: 1220px) and (max-width: 1760px) {
+  .lok-container {
     display: flex;
     flex-direction: column;
   }
+  .lok-text {
+    display: inline;
+    text-align: center;
+  }
 }
-@media (min-width: 768px) and (max-width: 1024px){
-  .lok-container{
+@media (min-width: 768px) and (max-width: 1024px) {
+  .lok-container {
     display: flex;
     flex-direction: column;
+  }
+  .lok-text {
+    display: inline;
+    text-align: center;
   }
 }
 
-@media (min-width: 324px) and (max-width: 767px){
-  .lok-container{
+@media (min-width: 324px) and (max-width: 767px) {
+  .lok-container {
     display: flex;
     flex-direction: column;
+  }
+  .lok-text {
+    display: inline;
+    text-align: center;
   }
 }

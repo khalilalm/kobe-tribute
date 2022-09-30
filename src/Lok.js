@@ -63,7 +63,7 @@ class Lok extends Component {
            <h6 className="lok-item-subtitles">Achievments</h6>
             </div>
            
-            <ul  className="lok-text-list">
+            <ul  className="lok-text-list" >
                 <li className="lok-text-list-item">NBA MVP Award</li>
                 <li className="lok-text-list-item">NBA All-Defensive Team</li>
                 <li className="lok-text-list-item" >Best NBA Player ESPY Award</li>

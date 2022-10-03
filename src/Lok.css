@@ -60,6 +60,15 @@
     display: inline;
     text-align: center;
   }
+  .lok-text-list{
+    display: inline;
+    text-align: center;
+  }
+  .lok-item-subtitles {
+    text-align: center;
+    margin-right: 40px;
+  }
+ 
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .lok-container {
